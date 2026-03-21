@@ -255,7 +255,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Applied end-to-end data science skills to solve real-world problems through project-based learning. Built models, performed analysis, and generated actionable insights.",
-    image: "public/Applied Data Science Capstone IBM certificate Coursera.pdf"
+    image: "Applied Data Science Capstone IBM certificate Coursera.pdf"
   },
   {
     id: 3,
@@ -263,7 +263,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IamNeo",
     date: "2025",
     description: "Developed backend systems using modern frameworks, focusing on APIs, routing, and database integration. Built scalable and efficient server-side applications.",
-    image: "public/Backend frameworks course IamNeo certification .pdf"
+    image: "Backend frameworks course IamNeo certification .pdf"
   },
   {
     id: 4,
@@ -271,7 +271,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2024",
     description: "Learned prompt engineering techniques to interact effectively with large language models. Improved response accuracy, creativity, and contextual understanding.",
-    image: "public/Coursera AI Prompt Engineering basics.pdf"
+    image: "Coursera AI Prompt Engineering basics.pdf"
   },
   {
     id: 5,
@@ -279,7 +279,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Google",
     date: "2024",
     description: "Built a strong foundation in artificial intelligence concepts including ML and generative AI. Explored real-world use cases and applications across industries.",
-    image: "public/Coursera Google AI Essentials.pdf"
+    image: "Coursera Google AI Essentials.pdf"
   },
   {
     id: 6,
@@ -287,7 +287,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Infosys",
     date: "2024",
     description: "Mastered semantic HTML, accessibility standards, and responsive design techniques. Built structured and user-friendly web interfaces.",
-    image: "public/Advanced html concepts.pdf"
+    image: "Advanced html concepts.pdf"
   },
   {
     id: 7,
@@ -295,7 +295,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Developed computer vision models to detect plant diseases using image datasets. Improved classification accuracy and real-world applicability.",
-    image: "public/AI challenge on Leaf Disease prediction.pdf"
+    image: "AI challenge on Leaf Disease prediction.pdf"
   },
   {
     id: 8,
@@ -303,7 +303,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Worked with tools like Jupyter Notebook, GitHub, and Watson Studio. Learned project workflows, version control, and data science environments.",
-    image: "public/Tools for Data Science IBM certificate Coursera.pdf"
+    image: "Tools for Data Science IBM certificate Coursera.pdf"
   },
   {
     id: 9,
@@ -311,7 +311,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Google",
     date: "2024",
     description: "Learned cybersecurity fundamentals including network security, threats, and risk mitigation. Understood best practices for securing systems and data.",
-    image: "public/Coursera Cyber security.pdf"
+    image: "Coursera Cyber security.pdf"
   },
   {
     id: 10,
@@ -319,7 +319,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Participated in a fast-paced AI challenge focused on rapid prototyping. Built solutions under time constraints using practical AI techniques.",
-    image: "public/! week AI challenge novitech.pdf"
+    image: "! week AI challenge novitech.pdf"
   },
   {
     id: 11,
@@ -327,7 +327,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Google",
     date: "2025",
     description: "Learned core data concepts including data lifecycle, analysis, and visualization. Understood how data supports decision-making in organizations.",
-    image: "public/Coursera Foundations Data, Data, Everywhere.pdf"
+    image: "Coursera Foundations Data, Data, Everywhere.pdf"
   },
   {
     id: 12,
@@ -335,7 +335,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Microsoft",
     date: "2026",
     description: "Performed data cleaning and transformation using Excel functions and tools. Applied pivot tables and formulas for structured analysis.",
-    image: "public/Coursera Preparing data for Analysis with Microsoft Excel.pdf"
+    image: "Coursera Preparing data for Analysis with Microsoft Excel.pdf"
   },
   {
     id: 13,
@@ -343,7 +343,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Analyzed datasets using Python libraries such as Pandas and NumPy. Visualized insights using Matplotlib and performed exploratory analysis.",
-    image: "public/Data Analysis with Python IBM certificate Coursera.pdff"
+    image: "Data Analysis with Python IBM certificate Coursera.pdff"
   },
   {
     id: 14,
@@ -351,7 +351,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Infosys",
     date: "2024",
     description: "Learned NoSQL database design using MongoDB and document-based storage. Performed CRUD operations and built scalable data models.",
-    image: "public/MongoDB.pdf"
+    image: "MongoDB.pdf"
   },
   {
     id: 15,
@@ -359,7 +359,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Worked on real-world Python applications focusing on automation and logic building. Improved coding efficiency and debugging skills.",
-    image: "public/Python Programming novitech intern.pdf"
+    image: "Python Programming novitech intern.pdf"
   },
   {
     id: 16,
@@ -367,7 +367,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Built AI models and explored machine learning techniques in practical projects. Gained hands-on experience in real-time AI applications.",
-    image: "public/Novitech intern Arificial inteligence.pdf"
+    image: "Novitech intern Arificial inteligence.pdf"
   },
   {
     id: 17,
@@ -375,7 +375,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Learn more Pro",
     date: "2025",
     description: "Created interactive dashboards and reports using Power BI. Visualized data insights and improved decision-making through analytics.",
-    image: "public/Power Bi course.pdf"
+    image: "Power Bi course.pdf"
   },
   {
     id: 18,
@@ -383,7 +383,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2024",
     description: "Learned about social media threats, phishing attacks, and data privacy issues. Understood how to protect personal and organizational data.",
-    image: "public/Social Media under Attack are you safe certificate .pdf"
+    image: "Social Media under Attack are you safe certificate .pdf"
   },
   {
     id: 19,
@@ -391,7 +391,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Understood the complete data science lifecycle from problem definition to deployment. Applied structured methodologies to solve analytical problems.",
-    image: "public/Data Science Methodology IBM certificate Coursera.pdf"
+    image: "Data Science Methodology IBM certificate Coursera.pdf"
   },
   {
     id: 20,
@@ -399,7 +399,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2025",
     description: "Learned industry expectations, interview preparation strategies, and career paths in data science. Built a strong understanding of required skills.",
-    image: "public/Data Scientist Career Guide and Interview IBM certificate coursera.pdf"
+    image: "Data Scientist Career Guide and Interview IBM certificate coursera.pdf"
   },
   {
     id: 21,
@@ -407,7 +407,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Created visualizations using Matplotlib, Seaborn, and Plotly. Communicated insights effectively through charts and dashboards.",
-    image: "public/Data Visualization with Python IBM certificate Coursera.pdf"
+    image: "Data Visualization with Python IBM certificate Coursera.pdf"
   },
   {
     id: 22,
@@ -415,7 +415,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Worked with SQL queries, joins, and database operations for data extraction. Integrated SQL with Python for data analysis tasks.",
-    image: "public/Databases and SQL for Data Science with Python IBM certificate Coursera.pdf"
+    image: "Databases and SQL for Data Science with Python IBM certificate Coursera.pdf"
   },
   {
     id: 23,
@@ -423,7 +423,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Infosys",
     date: "2026",
     description: "Built neural network models using R for deep learning tasks. Explored model training, evaluation, and performance tuning.",
-    image: "public/Deep Learning Neural Network with R Infosys certificate.pdf"
+    image: "Deep Learning Neural Network with R Infosys certificate.pdf"
   },
   {
     id: 24,
@@ -431,7 +431,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IIT Madras",
     date: "2024",
     description: "Learned human-centered design principles and problem-solving techniques. Applied design thinking to create innovative solutions.",
-    image: "public/Design Thinking - A Primer NPTEL.pdf"
+    image: "Design Thinking - A Primer NPTEL.pdf"
   },
   {
     id: 25,
@@ -439,7 +439,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2024",
     description: "Explored ethical hacking techniques including vulnerability assessment and penetration testing. Learned how to identify and fix security flaws.",
-    image: "public/Ethical Hacking novitech intern.pdf"
+    image: "Ethical Hacking novitech intern.pdf"
   },
   {
     id: 26,
@@ -447,7 +447,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Covered data analytics concepts including cleaning, visualization, and interpretation. Applied analytical thinking to solve business problems.",
-    image: "public/Novitech Data Analytics.pdf"
+    image: "Novitech Data Analytics.pdf"
   },
   {
     id: 27,
@@ -455,7 +455,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Infosys",
     date: "2024",
     description: "Learned core JavaScript concepts including variables, functions, and DOM manipulation. Built interactive web functionalities.",
-    image: "public/JavaScript by Example.pdf"
+    image: "JavaScript by Example.pdf"
   },
   {
     id: 28,
@@ -463,7 +463,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Infosys",
     date: "2025",
     description: "Understood machine learning concepts such as supervised and unsupervised learning. Built basic models and evaluated their performance.",
-    image: "public/Machine learning fundamentals infosys.pdf"
+    image: "Machine learning fundamentals infosys.pdf"
   },
   {
     id: 29,
@@ -471,7 +471,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Implemented ML algorithms using Scikit-learn and Python libraries. Built models for classification, regression, and clustering tasks.",
-    image: "public/Machine Learning with Python IBM certificate Coursera.pdf"
+    image: "Machine Learning with Python IBM certificate Coursera.pdf"
   },
   {
     id: 30,
@@ -479,7 +479,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Infosys",
     date: "2024",
     description: "Learned modern C++ concepts including OOP, STL, and memory management. Improved problem-solving and coding efficiency.",
-    image: "public/Modern c++ challenger.pdf"
+    image: "Modern c++ challenger.pdf"
   },
   {
     id: 31,
@@ -487,7 +487,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "CISCO",
     date: "2025",
     description: "Learned networking fundamentals including protocols, IP addressing, and network models. Understood how data flows across networks.",
-    image: "public/Networking_Basics_Badge.pdf"
+    image: "Networking_Basics_Badge.pdf"
   },
   {
     id: 32,
@@ -495,7 +495,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Infosys",
     date: "2024",
     description: "Designed and developed a company website using HTML and CSS. Focused on layout design, styling, and user experience.",
-    image: "public/Project on CSS and HTML - Designing a Company Website.pdf"
+    image: "Project on CSS and HTML - Designing a Company Website.pdf"
   },
   {
     id: 33,
@@ -503,7 +503,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Worked on full-stack applications integrating frontend and backend technologies. Built complete web solutions with database connectivity.",
-    image: "public/Novitech Full Stack Development Certificate.pdf"
+    image: "Novitech Full Stack Development Certificate.pdf"
   },
   {
     id: 34,
@@ -511,7 +511,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Used Python for data science tasks including analysis, visualization, and automation. Built applications and scripts for real-world use cases.",
-    image: "public/Python for Data Science, AI & Development IBM certificate Coursera.pdf"
+    image: "Python for Data Science, AI & Development IBM certificate Coursera.pdf"
   },
   {
     id: 35,
@@ -519,7 +519,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Worked on real-time business datasets to create dashboards and reports. Delivered actionable insights using Power BI tools.",
-    image: "public/Solving Real-Time Projects on Power BI certificate.pdf"
+    image: "Solving Real-Time Projects on Power BI certificate.pdf"
   },
   {
     id: 36,
@@ -527,7 +527,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2024",
     description: "Learned version control using Git and GitHub including commits, branches, and collaboration. Managed projects efficiently.",
-    image: "public/github novitech.pdf"
+    image: "github novitech.pdf"
   },
   {
     id: 37,
@@ -535,7 +535,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "HCL",
     date: "2024",
     description: "Learned the roadmap to becoming a full stack developer including frontend, backend, and databases. Understood required tools and skills.",
-    image: "public/GUVI 3 Steps to become a FUll Stack Developer .png"
+    image: "GUVI 3 Steps to become a FUll Stack Developer .png"
   },
   {
     id: 38,
@@ -543,7 +543,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "HCL",
     date: "2024",
     description: "Explored career strategies, skills, and tools required for data science roles. Understood industry expectations and growth paths.",
-    image: "public/GUVI How to become a succesful Data Scientist certificate.png"
+    image: "GUVI How to become a succesful Data Scientist certificate.png"
   },
   {
     id: 39,
@@ -551,7 +551,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Learned fundamental concepts of data science including data analysis and visualization. Understood how data is used to solve real-world problems.",
-    image: "public/What is Data Science IBM certificate coursera.pdf"
+    image: "What is Data Science IBM certificate coursera.pdf"
   },
   {
     id: 40,
@@ -559,7 +559,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Learned IoT concepts including sensors, devices, and data communication. Explored real-world applications of connected systems.",
-    image: "public/Novitech IOT certificate.pdf"
+    image: "Novitech IOT certificate.pdf"
   },
   {
     id: 41,
@@ -567,7 +567,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Explored how generative AI enhances data science workflows and productivity. Learned integration of AI tools into real-world projects.",
-    image: "public/Generative AI Elevate Your Data Science Career IBM coursera Certificate.pdf"
+    image: "Generative AI Elevate Your Data Science Career IBM coursera Certificate.pdf"
   },
   {
     id: 42,
@@ -575,7 +575,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "Freedom with AI",
     date: "2025",
     description: "Gained insights into advanced AI concepts and real-world applications. Learned practical approaches to building AI-powered solutions.",
-    image: "public/Freedom with AI MasterClass - Certificate.pdf"
+    image: "Freedom with AI MasterClass - Certificate.pdf"
   },
   {
     id: 43,
@@ -583,7 +583,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Completed an intensive analytics challenge focused on solving problems using data. Improved analytical thinking and decision-making skills.",
-    image: "public/Data Analytics 3 days challenge.pdf"
+    image: "Data Analytics 3 days challenge.pdf"
   },
   {
     id: 44,
@@ -591,7 +591,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Explored deep learning concepts including neural networks and model training. Built and evaluated models for complex data tasks.",
-    image: "public/Deep Learning novitech intern.pdf"
+    image: "Deep Learning novitech intern.pdf"
   }
 ];
 
