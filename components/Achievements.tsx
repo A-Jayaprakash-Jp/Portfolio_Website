@@ -87,9 +87,12 @@ const Achievements: React.FC<AchievementsProps> = ({ achievements }) => {
               className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden max-w-4xl w-full max-h-[90vh] flex flex-col relative shadow-2xl"
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-                <button 
+                <button
+                    type="button"
                     onClick={() => setSelectedAchievement(null)}
                     className="absolute top-4 right-4 p-2 bg-black/50 hover:bg-black/70 text-white rounded-full z-10 transition-colors"
+                    aria-label="Close certificate modal"
+                    title="Close certificate modal"
                 >
                     <X size={24} />
                 </button>

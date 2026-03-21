@@ -34,9 +34,9 @@ export const PERSONAL_INFO = {
   
   I have hands-on experience working with Python, C++, SQL, and modern ML frameworks. Beyond academics, I act as a Class Representative and have led teams in multiple hackathons, securing top ranks. I am actively seeking opportunities to apply my skills in real-world challenges.`,
   location: "Coimbatore, India",
-  profileImage: "https://picsum.photos/id/1025/800/800",
-  aboutImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=800",
-  resumeUrl: ""
+  profileImage: "/JP profile.jpeg",
+  aboutImage: "/Jp-profile.jpeg",
+  resumeUrl: "/Jayaprakash_a_Resume.pdf"
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -100,7 +100,7 @@ export const PROJECTS: Project[] = [
     category: "AI/ML",
     githubUrl: "#",
     links: { code: "#" },
-    image: "https://picsum.photos/seed/farm/800/600"
+    image: "farmverse thumbnail.png"
   },
   {
     id: 2,
@@ -111,8 +111,64 @@ export const PROJECTS: Project[] = [
     category: "Full Stack",
     githubUrl: "#",
     links: { code: "#" },
-    image: "https://picsum.photos/seed/forge/800/600"
+    image: "SmartForge thumbnail.png"
+  },
+  {
+    id: 3,
+    title: "LexiLaw AI",
+    description: "Created an AI-powered legal assistant that provides users with quick and accurate legal information. Integrated natural language processing to understand user queries and generate relevant responses.",
+    shortDescription: "AI legal assistant",
+    tech: ["AI", "NLP", "Web Development"],
+    category: "AI/ML",
+    githubUrl: "#",
+    links: { code: "#" },
+    image: "LexiLaw Ai.png"
+  },
+  {
+    id: 4,
+    title: "Easy Tutor",
+    description: "Created a comprehensive educational platform connecting students, teachers, and resources. Implemented features like personalized learning paths, real-time collaboration, and AI-driven content recommendations.",
+    shortDescription: "Educational platform",
+    tech: ["Full Stack", "AI", "Cloud"],
+    category: "Web Dev",
+    githubUrl: "#", 
+    links: { code: "#" },
+    image: "EasyTutor.png"
+  },
+  {
+    id: 5,
+    title: "HealthPlix AI",
+    description: "Developed an AI-powered health monitoring system that analyzes user data to provide personalized health insights and recommendations. Integrated wearable device data for real-time monitoring and alerts.",
+    shortDescription: "AI health monitoring system",
+    tech: ["AI", "Machine Learning", "IoT"],
+    category: "AI/ML",
+    githubUrl: "#",
+    links: { code: "#" },
+    image: "HealthPlix Ai.png"
+  },
+  {
+    id: 6,
+    title: "FoodExpress AI",
+    description: "Built an AI-driven food delivery platform that optimizes delivery routes and provides personalized restaurant recommendations based on user preferences and order history.",
+    shortDescription: "AI food delivery platform",
+    tech: ["AI", "Machine Learning", "Web Development"],
+    category: "AI/ML", 
+    githubUrl: "#",
+    links: { code: "#" },
+    image: "FoodExpress Ai.png"
+  },
+  {
+    id: 7,
+    title: "Dental Hospital Management System",
+    description: "Designed and implemented a comprehensive management system for dental hospitals. Features include patient records, appointment scheduling, billing, and inventory management.",
+    shortDescription: "Management system for dental hospitals",
+    tech: ["Full Stack", "Database", "Web Development"],
+    category: "Database",
+    githubUrl: "#",
+    links: { code: "#" },
+    image: "Dental_Hospital_Management_System.png"
   }
+
 ];
 
 export const EXPERIENCE: Experience[] = [
@@ -123,6 +179,7 @@ export const EXPERIENCE: Experience[] = [
     duration: "June 2025 – September 2025",
     type: "Work",
     location: "Remote",
+    image : "public/EasyTutor.png",
     description: [
       "Developed and evaluated machine learning models using Python on real-world datasets.",
       "Implemented end-to-end ML pipelines including feature engineering, model training, validation, and performance tuning."
@@ -142,12 +199,12 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 3,
-    role: "Full Stack Workshop",
-    company: "Tech Symposium",
-    duration: "2023",
+    role: "Quantum computing Workshop",
+    company: "Sri Krishna College of Technology",
+    duration: "2025",
     type: "Workshop",
-    location: "SKCET",
-    image: "https://picsum.photos/seed/cert1/800/600",
+    location: "SKCT",
+    image: "public/Quantum computing SKCET.pdf",
     description: [
       "Intensive 2-day workshop on MERN stack development.",
       "Built a real-time chat application."
@@ -161,7 +218,7 @@ export const EXPERIENCE: Experience[] = [
     type: "Education",
     location: "Coimbatore",
     description: [
-      "CGPA: 8.5/10",
+      "CGPA: 7.9/10",
       "Relevant Coursework: Data Structures &  Algorithms, Machine Learning, Deep Learning."
     ]
   }
@@ -177,8 +234,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 2,
-    title: "Class Representative",
-    description: "Elected as Class Representative for three consecutive semesters.",
+    title: "Team Leader",
+    description: "Worked as a Team leader for 6+ hackathons and 5+ workshops.",
     icon: Users
   }
 ];
@@ -189,36 +246,404 @@ export const CERTIFICATIONS: Certification[] = [
     title: "IBM Data Science Professional",
     issuer: "IBM",
     date: "2023",
-    description: "A comprehensive professional certificate covering Python, SQL, Data Analysis, and Machine Learning methodologies using IBM Cloud tools.",
-    image: "https://picsum.photos/seed/cert1/800/600"
+    description: "Completed an in-depth data science program covering Python, SQL, data analysis, and machine learning techniques. Gained hands-on experience working with real-world datasets and building predictive models.",
+    pdf: "IBM Certificate For Data Science.pdf"
   },
   {
     id: 2,
+    title: "Applied Data Science Capstone",
+    issuer: "IBM",
+    date: "2026",
+    description: "Applied end-to-end data science skills to solve real-world problems through project-based learning. Built models, performed analysis, and generated actionable insights.",
+    image: "public/Applied Data Science Capstone IBM certificate Coursera.pdf"
+  },
+  {
+    id: 3,
+    title: "Backend Frameworks",
+    issuer: "IamNeo",
+    date: "2025",
+    description: "Developed backend systems using modern frameworks, focusing on APIs, routing, and database integration. Built scalable and efficient server-side applications.",
+    image: "public/Backend frameworks course IamNeo certification .pdf"
+  },
+  {
+    id: 4,
+    title: "Generative AI Prompt Engineering Basics",
+    issuer: "IBM",
+    date: "2024",
+    description: "Learned prompt engineering techniques to interact effectively with large language models. Improved response accuracy, creativity, and contextual understanding.",
+    image: "public/Coursera AI Prompt Engineering basics.pdf"
+  },
+  {
+    id: 5,
     title: "AI Essentials",
     issuer: "Google",
     date: "2024",
-    description: "Learned the core concepts of AI, including generative AI, and applied them to improve productivity and problem-solving workflows.",
-    image: "https://picsum.photos/seed/cert2/800/600"
+    description: "Built a strong foundation in artificial intelligence concepts including ML and generative AI. Explored real-world use cases and applications across industries.",
+    image: "public/Coursera Google AI Essentials.pdf"
+  },
+  {
+    id: 6,
+    title: "Advanced HTML Concepts",
+    issuer: "Infosys",
+    date: "2024",
+    description: "Mastered semantic HTML, accessibility standards, and responsive design techniques. Built structured and user-friendly web interfaces.",
+    image: "public/Advanced html concepts.pdf"
+  },
+  {
+    id: 7,
+    title: "AI Challenge on Leaf Disease Prediction",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Developed computer vision models to detect plant diseases using image datasets. Improved classification accuracy and real-world applicability.",
+    image: "public/AI challenge on Leaf Disease prediction.pdf"
+  },
+  {
+    id: 8,
+    title: "Tools for Data Science",
+    issuer: "IBM",
+    date: "2026",
+    description: "Worked with tools like Jupyter Notebook, GitHub, and Watson Studio. Learned project workflows, version control, and data science environments.",
+    image: "public/Tools for Data Science IBM certificate Coursera.pdf"
+  },
+  {
+    id: 9,
+    title: "Foundation of Cybersecurity",
+    issuer: "Google",
+    date: "2024",
+    description: "Learned cybersecurity fundamentals including network security, threats, and risk mitigation. Understood best practices for securing systems and data.",
+    image: "public/Coursera Cyber security.pdf"
+  },
+  {
+    id: 10,
+    title: "1 Week AI Challenge",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Participated in a fast-paced AI challenge focused on rapid prototyping. Built solutions under time constraints using practical AI techniques.",
+    image: "public/! week AI challenge novitech.pdf"
+  },
+  {
+    id: 11,
+    title: "Foundations: Data, Data, Everywhere",
+    issuer: "Google",
+    date: "2025",
+    description: "Learned core data concepts including data lifecycle, analysis, and visualization. Understood how data supports decision-making in organizations.",
+    image: "public/Coursera Foundations Data, Data, Everywhere.pdf"
+  },
+  {
+    id: 12,
+    title: "Preparing Data for Analysis with Microsoft Excel",
+    issuer: "Microsoft",
+    date: "2026",
+    description: "Performed data cleaning and transformation using Excel functions and tools. Applied pivot tables and formulas for structured analysis.",
+    image: "public/Coursera Preparing data for Analysis with Microsoft Excel.pdf"
+  },
+  {
+    id: 13,
+    title: "Data Analysis with Python",
+    issuer: "IBM",
+    date: "2026",
+    description: "Analyzed datasets using Python libraries such as Pandas and NumPy. Visualized insights using Matplotlib and performed exploratory analysis.",
+    image: "public/Data Analysis with Python IBM certificate Coursera.pdff"
+  },
+  {
+    id: 14,
+    title: "MongoDB",
+    issuer: "Infosys",
+    date: "2024",
+    description: "Learned NoSQL database design using MongoDB and document-based storage. Performed CRUD operations and built scalable data models.",
+    image: "public/MongoDB.pdf"
+  },
+  {
+    id: 15,
+    title: "Python Programming Internship",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Worked on real-world Python applications focusing on automation and logic building. Improved coding efficiency and debugging skills.",
+    image: "public/Python Programming novitech intern.pdf"
+  },
+  {
+    id: 16,
+    title: "Artificial Intelligence Internship",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Built AI models and explored machine learning techniques in practical projects. Gained hands-on experience in real-time AI applications.",
+    image: "public/Novitech intern Arificial inteligence.pdf"
+  },
+  {
+    id: 17,
+    title: "PowerBI Tools",
+    issuer: "Learn more Pro",
+    date: "2025",
+    description: "Created interactive dashboards and reports using Power BI. Visualized data insights and improved decision-making through analytics.",
+    image: "public/Power Bi course.pdf"
+  },
+  {
+    id: 18,
+    title: "Social Media under Attack are you safe",
+    issuer: "NoviTech",
+    date: "2024",
+    description: "Learned about social media threats, phishing attacks, and data privacy issues. Understood how to protect personal and organizational data.",
+    image: "public/Social Media under Attack are you safe certificate .pdf"
+  },
+  {
+    id: 19,
+    title: "Data Science Methodology",
+    issuer: "IBM",
+    date: "2026",
+    description: "Understood the complete data science lifecycle from problem definition to deployment. Applied structured methodologies to solve analytical problems.",
+    image: "public/Data Science Methodology IBM certificate Coursera.pdf"
+  },
+  {
+    id: 20,
+    title: "Data Scientist Career Guide and Interview",
+    issuer: "IBM",
+    date: "2025",
+    description: "Learned industry expectations, interview preparation strategies, and career paths in data science. Built a strong understanding of required skills.",
+    image: "public/Data Scientist Career Guide and Interview IBM certificate coursera.pdf"
+  },
+  {
+    id: 21,
+    title: "Data Visualization with Python",
+    issuer: "IBM",
+    date: "2026",
+    description: "Created visualizations using Matplotlib, Seaborn, and Plotly. Communicated insights effectively through charts and dashboards.",
+    image: "public/Data Visualization with Python IBM certificate Coursera.pdf"
+  },
+  {
+    id: 22,
+    title: "Databases and SQL for Data Science with Python",
+    issuer: "IBM",
+    date: "2026",
+    description: "Worked with SQL queries, joins, and database operations for data extraction. Integrated SQL with Python for data analysis tasks.",
+    image: "public/Databases and SQL for Data Science with Python IBM certificate Coursera.pdf"
+  },
+  {
+    id: 23,
+    title: "Deep Learning Neural Network with R",
+    issuer: "Infosys",
+    date: "2026",
+    description: "Built neural network models using R for deep learning tasks. Explored model training, evaluation, and performance tuning.",
+    image: "public/Deep Learning Neural Network with R Infosys certificate.pdf"
+  },
+  {
+    id: 24,
+    title: "Design Thinking - A Primer NPTEL",
+    issuer: "IIT Madras",
+    date: "2024",
+    description: "Learned human-centered design principles and problem-solving techniques. Applied design thinking to create innovative solutions.",
+    image: "public/Design Thinking - A Primer NPTEL.pdf"
+  },
+  {
+    id: 25,
+    title: "Ethical Hacking intern",
+    issuer: "NoviTech",
+    date: "2024",
+    description: "Explored ethical hacking techniques including vulnerability assessment and penetration testing. Learned how to identify and fix security flaws.",
+    image: "public/Ethical Hacking novitech intern.pdf"
+  },
+  {
+    id: 26,
+    title: "DATA ANALYTICS MASTERCLASS",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Covered data analytics concepts including cleaning, visualization, and interpretation. Applied analytical thinking to solve business problems.",
+    image: "public/Novitech Data Analytics.pdf"
+  },
+  {
+    id: 27,
+    title: "JavaScript Basics",
+    issuer: "Infosys",
+    date: "2024",
+    description: "Learned core JavaScript concepts including variables, functions, and DOM manipulation. Built interactive web functionalities.",
+    image: "public/JavaScript by Example.pdf"
+  },
+  {
+    id: 28,
+    title: "Machine Learning Fundamentals",
+    issuer: "Infosys",
+    date: "2025",
+    description: "Understood machine learning concepts such as supervised and unsupervised learning. Built basic models and evaluated their performance.",
+    image: "public/Machine learning fundamentals infosys.pdf"
+  },
+  {
+    id: 29,
+    title: "Machine Learning with Python",
+    issuer: "IBM",
+    date: "2026",
+    description: "Implemented ML algorithms using Scikit-learn and Python libraries. Built models for classification, regression, and clustering tasks.",
+    image: "public/Machine Learning with Python IBM certificate Coursera.pdf"
+  },
+  {
+    id: 30,
+    title: "Modern C++ Challenger",
+    issuer: "Infosys",
+    date: "2024",
+    description: "Learned modern C++ concepts including OOP, STL, and memory management. Improved problem-solving and coding efficiency.",
+    image: "public/Modern c++ challenger.pdf"
+  },
+  {
+    id: 31,
+    title: "CISCO Networking Basics",
+    issuer: "CISCO",
+    date: "2025",
+    description: "Learned networking fundamentals including protocols, IP addressing, and network models. Understood how data flows across networks.",
+    image: "public/Networking_Basics_Badge.pdf"
+  },
+  {
+    id: 32,
+    title: "Project on CSS and HTML - Designing a Company Website",
+    issuer: "Infosys",
+    date: "2024",
+    description: "Designed and developed a company website using HTML and CSS. Focused on layout design, styling, and user experience.",
+    image: "public/Project on CSS and HTML - Designing a Company Website.pdf"
+  },
+  {
+    id: 33,
+    title: "Full Stack Development",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Worked on full-stack applications integrating frontend and backend technologies. Built complete web solutions with database connectivity.",
+    image: "public/Novitech Full Stack Development Certificate.pdf"
+  },
+  {
+    id: 34,
+    title: "Python for Data Science, AI & Development",
+    issuer: "IBM",
+    date: "2026",
+    description: "Used Python for data science tasks including analysis, visualization, and automation. Built applications and scripts for real-world use cases.",
+    image: "public/Python for Data Science, AI & Development IBM certificate Coursera.pdf"
+  },
+  {
+    id: 35,
+    title: "Solving Real-Time Projects on Power BI",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Worked on real-time business datasets to create dashboards and reports. Delivered actionable insights using Power BI tools.",
+    image: "public/Solving Real-Time Projects on Power BI certificate.pdf"
+  },
+  {
+    id: 36,
+    title: "HOW TO USE GITHUB?",
+    issuer: "NoviTech",
+    date: "2024",
+    description: "Learned version control using Git and GitHub including commits, branches, and collaboration. Managed projects efficiently.",
+    image: "public/github novitech.pdf"
+  },
+  {
+    id: 37,
+    title: "3 Steps to become a Full Stack Developer",
+    issuer: "HCL",
+    date: "2024",
+    description: "Learned the roadmap to becoming a full stack developer including frontend, backend, and databases. Understood required tools and skills.",
+    image: "public/GUVI 3 Steps to become a FUll Stack Developer .png"
+  },
+  {
+    id: 38,
+    title: "How to become a successful Data Scientist",
+    issuer: "HCL",
+    date: "2024",
+    description: "Explored career strategies, skills, and tools required for data science roles. Understood industry expectations and growth paths.",
+    image: "public/GUVI How to become a succesful Data Scientist certificate.png"
+  },
+  {
+    id: 39,
+    title: "What is Data Science?",
+    issuer: "IBM",
+    date: "2026",
+    description: "Learned fundamental concepts of data science including data analysis and visualization. Understood how data is used to solve real-world problems.",
+    image: "public/What is Data Science IBM certificate coursera.pdf"
+  },
+  {
+    id: 40,
+    title: "Internet Of Things Basics",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Learned IoT concepts including sensors, devices, and data communication. Explored real-world applications of connected systems.",
+    image: "public/Novitech IOT certificate.pdf"
+  },
+  {
+    id: 41,
+    title: "Generative AI Elevate Your Data Science Career",
+    issuer: "IBM",
+    date: "2026",
+    description: "Explored how generative AI enhances data science workflows and productivity. Learned integration of AI tools into real-world projects.",
+    image: "public/Generative AI Elevate Your Data Science Career IBM coursera Certificate.pdf"
+  },
+  {
+    id: 42,
+    title: "AI Masterclass",
+    issuer: "Freedom with AI",
+    date: "2025",
+    description: "Gained insights into advanced AI concepts and real-world applications. Learned practical approaches to building AI-powered solutions.",
+    image: "public/Freedom with AI MasterClass - Certificate.pdf"
+  },
+  {
+    id: 43,
+    title: "Data Analytics 3 Days Challenge",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Completed an intensive analytics challenge focused on solving problems using data. Improved analytical thinking and decision-making skills.",
+    image: "public/Data Analytics 3 days challenge.pdf"
+  },
+  {
+    id: 44,
+    title: "Deep Learning",
+    issuer: "NoviTech",
+    date: "2025",
+    description: "Explored deep learning concepts including neural networks and model training. Built and evaluated models for complex data tasks.",
+    image: "public/Deep Learning novitech intern.pdf"
   }
 ];
 
 export const BLOGS: Blog[] = [
     {
         id: 1,
-        title: "Winning the Smart India Hackathon",
+        title: "KPR HORIZON 2025",
         description: "Our team developed a smart tracking solution for logistics. It was an intense 36-hour coding marathon where we integrated IoT sensors with a React dashboard. The experience taught me resilience and rapid prototyping.",
         category: "Hackathon",
-        date: "Oct 2023",
+        date: "Mar 2025",
         image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800"
     },
     {
         id: 2,
-        title: "Presenting AI Ethics Paper",
+        title: "Quantum Computing Workshop",
+        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
+        category: "Workshop",
+        date: "Jan 2025",
+        image: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      id: 3,
+        title: "SKCT Paper Presentation",
         description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
         category: "Presentation",
-        date: "Jan 2024",
-        image: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&q=80&w=800"
-    }
+        date: "Jan 2025",
+        image:"public/Quantum computing SKCET.pdf"
+    },
+    {
+      id: 4,
+        title: "Sakthi Hackathon 1.0",
+        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
+        category: "Hackathon",
+        date: "Jan 2025",
+        image:""
+    },
+    {
+      id: 5,
+        title: "PSG Infinitum",
+        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
+        category: "Hackathon",
+        date: "Jan 2025",
+        image: ""
+    },
+    {
+      id: 6,
+        title: "Quantum Computing Workshop",
+        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
+        category: "Workshop",
+        date: "Jan 2025",
+        image:""
+    },
 ];
 
 export const NAV_ITEMS = [

@@ -121,7 +121,9 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
                 <button 
+                    type="button"
                     onClick={() => setSelectedItem(null)}
+                    aria-label="Close modal"
                     className="absolute top-4 right-4 p-2 bg-black/50 hover:bg-black/70 text-white rounded-full z-10 transition-colors"
                 >
                     <X size={24} />

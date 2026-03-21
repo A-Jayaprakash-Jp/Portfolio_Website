@@ -46,6 +46,7 @@ export interface Experience {
 }
 
 export interface Certification {
+  pdf?: string;
   id: number;
   title: string;
   issuer: string;

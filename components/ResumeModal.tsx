@@ -38,7 +38,9 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose, resumeUrl })
                 Download
               </a>
               <button 
+                type="button"
                 onClick={onClose}
+                aria-label="Close resume modal"
                 className="p-2 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full transition-colors text-slate-500 dark:text-slate-400"
               >
                 <X size={24} />
