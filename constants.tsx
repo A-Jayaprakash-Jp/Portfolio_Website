@@ -247,7 +247,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2023",
     description: "Completed an in-depth data science program covering Python, SQL, data analysis, and machine learning techniques. Gained hands-on experience working with real-world datasets and building predictive models.",
-    pdf: "IBM Certificate For Data Science.pdf"
+    image: "IBM Certificate For Data Science.pdf"
   },
   {
     id: 2,
