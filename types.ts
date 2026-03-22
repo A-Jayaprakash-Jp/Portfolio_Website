@@ -34,6 +34,7 @@ export interface Project {
 }
 
 export interface Experience {
+  pdf?: string;
   id: number;
   role: string;
   company: string;

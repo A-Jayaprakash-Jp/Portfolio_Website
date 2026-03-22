@@ -13,7 +13,6 @@ import {
   MessageCircle
 } from 'lucide-react';
 import { SkillCategory, Project, Experience, Certification, SocialLink, Achievement, PortfolioData, Blog } from './types';
-import { tr } from 'framer-motion/client';
 
 export const PERSONAL_INFO = {
   name: "JAYAPRAKASH A",
@@ -37,7 +36,7 @@ export const PERSONAL_INFO = {
   location: "Coimbatore,Tamil Nadu , India",
   profileImage: "/JP profile.jpeg",
   aboutImage: "/Jp-profile.jpeg",
-  resumeUrl: "/Jayaprakash_a_Resume.pdf"
+  resumeUrl: "/Jayaprakash A resume.pdf"
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -110,8 +109,7 @@ export const PROJECTS: Project[] = [
     shortDescription: "AI-powered agriculture platform",
     tech: ["AI", "Machine Learning", "Web Technologies"],
     category: "AI/ML",
-    githubUrl: "#",
-    links: { code: "#" },
+    githubUrl: "https://github.com/A-Jayaprakash-Jp/Dental-Hospital-Management-System",
     image: "farmverse thumbnail.png"
   },
   {
@@ -121,7 +119,7 @@ export const PROJECTS: Project[] = [
     shortDescription: "Smart solution for hackathon",
     tech: ["Full Stack", "AI", "System Design"],
     category: "Full Stack",
-    githubUrl: "#",
+    githubUrl: "https://github.com/A-Jayaprakash-Jp/Smart-Forge",
     links: { code: "#" },
     image: "SmartForge thumbnail.png"
   },
@@ -176,7 +174,7 @@ export const PROJECTS: Project[] = [
     shortDescription: "Management system for dental hospitals",
     tech: ["Full Stack", "Database", "Web Development"],
     category: "Database",
-    githubUrl: "#",
+    githubUrl: "https://github.com/A-Jayaprakash-Jp/Dental-Hospital-Management-System",
     links: { code: "#" },
     image: "Dental_Hospital_Management_System.png"
   }
@@ -191,7 +189,7 @@ export const EXPERIENCE: Experience[] = [
     duration: "April 2025 – May 2025",
     type: "Work",
     location: "Coimbatore",
-    image: "Novitech intern Arificial inteligence.pdf",
+    image: "AI intern novitech.png",
     description: [
     "Designed and developed AI-based solutions using machine learning and deep learning techniques on real-world datasets. Focused on improving model accuracy and optimizing performance for practical applications.",
     "Built end-to-end AI pipelines including data preprocessing, feature engineering, model training, evaluation, and deployment-ready workflows using Python and relevant libraries."
@@ -204,7 +202,7 @@ export const EXPERIENCE: Experience[] = [
     duration: "March 2025 – April 2025",
     type: "Work",
     location: "Coimbatore",
-    image: "Novitech Full Stack Development Certificate.pdf",
+    image: "fsd intern novitech.png",
     description: [
     "Developed full-stack web applications integrating frontend and backend technologies, focusing on responsive UI and efficient server-side logic. Worked on building dynamic and user-friendly interfaces.",
     "Implemented RESTful APIs, handled database operations, and ensured smooth communication between client and server, improving overall application performance and scalability."
@@ -230,11 +228,12 @@ export const EXPERIENCE: Experience[] = [
     duration: "April 2025 – May 2025",
     type: "Work",
     location: "coimbatore",
-    image : "Alfido tech ML intern.png",
+    image: "Alfido tech ML intern.png",
     description: [
       "Developed and evaluated machine learning models using Python on real-world datasets.",
       "Implemented end-to-end ML pipelines including feature engineering, model training, validation, and performance tuning."
-    ]
+    ],
+  
   },
   
   {
@@ -248,7 +247,8 @@ export const EXPERIENCE: Experience[] = [
     description: [
       "Intensive 5-day workshop on Quantum computing.",
       "Gained hands on experience with quantum projects."
-    ]
+    ],
+    
   },
   {
     id: 1,
@@ -257,10 +257,11 @@ export const EXPERIENCE: Experience[] = [
     duration: "Sep 2024 – Sep 2028",
     type: "Education",
     location: "Coimbatore",
+    pdf:"",
     description: [
       "CGPA: 7.9/10",
       "Relevant Coursework: Data Structures &  Algorithms, Machine Learning, Deep Learning."
-    ]
+    ],
   }
 ];
 
@@ -400,7 +401,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "IBM",
     date: "2026",
     description: "Analyzed datasets using Python libraries such as Pandas and NumPy. Visualized insights using Matplotlib and performed exploratory analysis.",
-    image: "Data Analysis with Python IBM certificate Coursera.pdff"
+    image: "Data Analysis with Python IBM certificate Coursera.pdf"
   },
   {
     id: 14,
@@ -648,7 +649,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Explored deep learning concepts including neural networks and model training. Built and evaluated models for complex data tasks.",
-    image: "public/Deep Learning novitech intern.pdf"
+    image: "Deep Learning novitech intern.pdf"
   }
 ];
 

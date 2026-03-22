@@ -22,7 +22,7 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
   };
 
   const handleItemClick = (item: ExperienceType) => {
-      if (item.image) {
+      if (item.pdf || item.image || item.logo) {
           setSelectedItem(item);
       }
   };
@@ -59,7 +59,7 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
                   transition={{ delay: index * 0.1 }}
                   whileHover={{ scale: 1.02 }}
                   onClick={() => handleItemClick(item)}
-                  style={{ cursor: item.image ? 'pointer' : 'default' }}
+                  style={{ cursor: item.pdf || item.image || item.logo ? 'pointer' : 'default' }}
                 >
                   {/* Glowing Node */}
                   <div className="absolute -left-[43px] top-1 w-6 h-6 rounded-full bg-slate-50 dark:bg-slate-950 border-4 border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.3)] z-10"></div>
@@ -95,12 +95,12 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
                         </li>
                       ))}
                     </ul>
-                    {item.image && (
+                    {item.pdf || item.image || item.logo ? (
                         <div className="mt-4 flex items-center gap-2 text-xs text-blue-500 dark:text-blue-400 font-medium opacity-80 group-hover:opacity-100 transition-opacity">
                             <FileCheck size={14} />
                             Click to view certificate/proof
                         </div>
-                    )}
+                    ) : null}
                   </div>
                 </MotionDiv>
               ))}
@@ -133,10 +133,21 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
                     <p className="text-slate-500 dark:text-slate-400 text-sm">{selectedItem.company} • {selectedItem.duration}</p>
                 </div>
                 <div className="flex-1 overflow-auto p-4 bg-slate-100 dark:bg-black flex items-center justify-center">
-                    {selectedItem.image ? (
-                        <img src={selectedItem.image} alt={selectedItem.role} className="max-w-full max-h-[70vh] object-contain shadow-lg" />
+                    {selectedItem.pdf ? (
+                        <div className="text-center">
+                            <FileCheck size={48} className="mx-auto mb-4 text-purple-500" />
+                            <p className="text-slate-600 dark:text-slate-300 mb-4">Certificate PDF</p>
+                            <button 
+                                onClick={() => window.open(`/${selectedItem.pdf}`, '_blank')}
+                                className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors"
+                            >
+                                Open Certificate
+                            </button>
+                        </div>
+                    ) : selectedItem.image ? (
+                        <img src={`/${selectedItem.image}`} alt={selectedItem.role} className="max-w-full max-h-[70vh] object-contain shadow-lg" />
                     ) : (
-                        <div className="text-slate-500">Image not available</div>
+                        <div className="text-slate-500">Certificate not available</div>
                     )}
                 </div>
             </MotionDiv>
