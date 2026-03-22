@@ -13,6 +13,7 @@ import {
   MessageCircle
 } from 'lucide-react';
 import { SkillCategory, Project, Experience, Certification, SocialLink, Achievement, PortfolioData, Blog } from './types';
+import { tr } from 'framer-motion/client';
 
 export const PERSONAL_INFO = {
   name: "JAYAPRAKASH A",
@@ -33,7 +34,7 @@ export const PERSONAL_INFO = {
   I enjoy working at the intersection of data, algorithms, and practical applications. From developing AI-driven solutions like FarmVerse to designing end-to-end applications like Smart Forge, I focus on creating systems that are not only technically sound but also meaningful and scalable.
   
   I have hands-on experience working with Python, C++, SQL, and modern ML frameworks. Beyond academics, I act as a Class Representative and have led teams in multiple hackathons, securing top ranks. I am actively seeking opportunities to apply my skills in real-world challenges.`,
-  location: "Coimbatore, India",
+  location: "Coimbatore,Tamil Nadu , India",
   profileImage: "/JP profile.jpeg",
   aboutImage: "/Jp-profile.jpeg",
   resumeUrl: "/Jayaprakash_a_Resume.pdf"
@@ -41,8 +42,8 @@ export const PERSONAL_INFO = {
 
 export const SOCIAL_LINKS: SocialLink[] = [
   { platform: "GitHub", url: "https://github.com/a-jayaprakash-jp", icon: Github },
-  { platform: "LinkedIn", url: "https://linkedin.com", icon: Linkedin },
-  { platform: "Instagram", url: "https://instagram.com", icon: Instagram },
+  { platform: "LinkedIn", url: "https://www.linkedin.com/in/jayaprakash-a-bb2557274", icon: Linkedin },
+  { platform: "Instagram", url: "https://instagram.com/a.jayaprakash_jp", icon: Instagram },
   { platform: "WhatsApp", url: "https://wa.me/916369663155", icon: MessageCircle },
   { platform: "X", url: "https://twitter.com", icon: Twitter },
 ];
@@ -55,6 +56,7 @@ export const SKILLS: SkillCategory[] = [
         { name: "Java", level: 80 },
         { name: "C++", level: 85 },
         { name: "SQL", level: 75 },
+        { name: "JavaScript", level: 70 }
     ],
     icon: Code
   },
@@ -64,7 +66,12 @@ export const SKILLS: SkillCategory[] = [
         { name: "MERN Stack", level: 85 },
         { name: "React.js", level: 90 },
         { name: "Machine Learning", level: 80 },
-        { name: "Deep Learning", level: 70 }
+        { name: "Deep Learning", level: 70 },
+        { name: "Spring boot", level: 75 },
+        { name: "Scikit-learn", level: 75 },
+        { name: "TensorFlow", level: 70 },
+        { name: "Pandas", level: 65 },
+
     ],
     icon: Layout
   },
@@ -74,7 +81,9 @@ export const SKILLS: SkillCategory[] = [
         { name: "MySQL", level: 85 },
         { name: "MongoDB", level: 80 },
         { name: "GCP", level: 60 },
-        { name: "Firebase", level: 75 }
+        { name: "Firebase", level: 75 },
+        { name: "Snowflake", level: 75 }
+        
     ],
     icon: Database
   },
@@ -84,7 +93,10 @@ export const SKILLS: SkillCategory[] = [
         { name: "GitHub", level: 95 },
         { name: "Docker", level: 65 },
         { name: "VS Code", level: 90 },
-        { name: "Jupyter", level: 85 }
+        { name: "Jupyter", level: 85 },
+        { name: "GitHub", level: 90 },
+        { name: "Power BI", level: 75 },
+        { name: "Postman", level: 75 }
     ],
     icon: Terminal
   }
@@ -173,45 +185,73 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCE: Experience[] = [
   {
-    id: 1,
+    id: 6,
+    role: "AI Intern",
+    company: "NoviTech",
+    duration: "April 2025 – May 2025",
+    type: "Work",
+    location: "Coimbatore",
+    image: "Novitech intern Arificial inteligence.pdf",
+    description: [
+    "Designed and developed AI-based solutions using machine learning and deep learning techniques on real-world datasets. Focused on improving model accuracy and optimizing performance for practical applications.",
+    "Built end-to-end AI pipelines including data preprocessing, feature engineering, model training, evaluation, and deployment-ready workflows using Python and relevant libraries."
+    ]
+  },
+  {
+    id: 5,
+    role: "Full Stack Development Intern",
+    company: "NoviTech",
+    duration: "March 2025 – April 2025",
+    type: "Work",
+    location: "Coimbatore",
+    image: "Novitech Full Stack Development Certificate.pdf",
+    description: [
+    "Developed full-stack web applications integrating frontend and backend technologies, focusing on responsive UI and efficient server-side logic. Worked on building dynamic and user-friendly interfaces.",
+    "Implemented RESTful APIs, handled database operations, and ensured smooth communication between client and server, improving overall application performance and scalability."
+    ]
+  },
+  {
+    id: 4,
     role: "Machine Learning Intern",
     company: "CodeAlpha",
     duration: "June 2025 – September 2025",
     type: "Work",
-    location: "Remote",
-    image : "public/EasyTutor.png",
+    location: "Coimbatore",
+    image: "Codealpha ml 3 intern.png",
+    description: [
+    "Built and evaluated machine learning models for predictive analysis using Python libraries such as Scikit-learn and Pandas. Worked on real-world datasets to extract insights and improve decision-making.",
+    "Performed data cleaning, feature selection, model optimization, and performance evaluation, gaining hands-on experience in solving practical ML problems."
+    ]
+  },
+  {
+    id: 3,
+    role: "Machine Learning Intern",
+    company: "Alfido Tech",
+    duration: "April 2025 – May 2025",
+    type: "Work",
+    location: "coimbatore",
+    image : "Alfido tech ML intern.png",
     description: [
       "Developed and evaluated machine learning models using Python on real-world datasets.",
       "Implemented end-to-end ML pipelines including feature engineering, model training, validation, and performance tuning."
     ]
   },
+  
   {
     id: 2,
-    role: "Sakthi Hackathon Finalist",
-    company: "Sakthi Excellence Academy",
-    duration: "2024",
-    type: "Hackathon",
-    location: "Coimbatore",
-    description: [
-      "Secured Top 5 rank among 1000+ teams for project 'Smart Forge'.",
-      "Developed a comprehensive IoT and AI solution for industrial automation."
-    ]
-  },
-  {
-    id: 3,
     role: "Quantum computing Workshop",
     company: "Sri Krishna College of Technology",
     duration: "2025",
     type: "Workshop",
     location: "SKCT",
-    image: "public/Quantum computing SKCET.pdf",
+    image: "quantum computing.png",
     description: [
-      "Intensive 2-day workshop on MERN stack development.",
-      "Built a real-time chat application."
+      "Intensive 5-day workshop on Quantum computing.",
+      "Gained hands on experience with quantum projects."
     ]
   },
   {
-    id: 4,
+    id: 1,
     role: "B.Tech – AI & DS",
     company: "Sri Krishna College of Engineering and Technology",
     duration: "Sep 2024 – Sep 2028",
@@ -227,13 +267,30 @@ export const EXPERIENCE: Experience[] = [
 export const ACHIEVEMENTS: Achievement[] = [
   {
     id: 1,
-    title: "Sakthi Hackathon - Top 5",
-    description: "Secured Top 5 rank among 1000+ teams. Won a cash prize of 5,000.",
-    icon: Trophy,
-    highlight: "National Level"
+    title: "Hackathon winner(Top 5)",
+    description: "Secured Top 5 rank among 1000+ teams with 5000 cash prize for project 'Smart Forge' ",
+    icon: Trophy
+  },
+  {
+    id: 4,
+    title: "BITBANTERS'25",
+    description: "Secured 2nd place in BITBANTERS'25, a prestigious intra-college competition, showcasing exceptional skills and teamwork.",
+    icon: Trophy
+  },
+  {
+    id: 3,
+    title: "KPR HORIZON'25 Finalist",
+    description: "Participated in a 36-hour hackathon where our team built a smart logistics tracking system using IoT sensors and a React-based dashboard.",
+    icon: Trophy
   },
   {
     id: 2,
+    title: "PSG INFINITUM Finalist",
+    description: "Participated in PSG Infinitum, a competitive hackathon where we worked on innovative solutions within a limited timeframe.",
+    icon: Trophy
+  },
+  {
+    id: 5,
     title: "Team Leader",
     description: "Worked as a Team leader for 6+ hackathons and 5+ workshops.",
     icon: Users
@@ -282,7 +339,7 @@ export const CERTIFICATIONS: Certification[] = [
     image: "Coursera Google AI Essentials.pdf"
   },
   {
-    id: 6,
+    id: 45,
     title: "Advanced HTML Concepts",
     issuer: "Infosys",
     date: "2024",
@@ -314,7 +371,7 @@ export const CERTIFICATIONS: Certification[] = [
     image: "Coursera Cyber security.pdf"
   },
   {
-    id: 10,
+    id: 46,
     title: "1 Week AI Challenge",
     issuer: "NoviTech",
     date: "2025",
@@ -591,59 +648,67 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "NoviTech",
     date: "2025",
     description: "Explored deep learning concepts including neural networks and model training. Built and evaluated models for complex data tasks.",
-    image: "Deep Learning novitech intern.pdf"
+    image: "public/Deep Learning novitech intern.pdf"
   }
 ];
 
 export const BLOGS: Blog[] = [
-    {
-        id: 1,
-        title: "KPR HORIZON 2025",
-        description: "Our team developed a smart tracking solution for logistics. It was an intense 36-hour coding marathon where we integrated IoT sensors with a React dashboard. The experience taught me resilience and rapid prototyping.",
-        category: "Hackathon",
-        date: "Mar 2025",
-        image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800"
-    },
-    {
-        id: 2,
-        title: "Quantum Computing Workshop",
-        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
-        category: "Workshop",
-        date: "Jan 2025",
-        image: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&q=80&w=800"
-    },
-    {
-      id: 3,
-        title: "SKCT Paper Presentation",
-        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
-        category: "Presentation",
-        date: "Jan 2025",
-        image:"public/Quantum computing SKCET.pdf"
-    },
-    {
-      id: 4,
-        title: "Sakthi Hackathon 1.0",
-        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
-        category: "Hackathon",
-        date: "Jan 2025",
-        image:""
-    },
-    {
-      id: 5,
-        title: "PSG Infinitum",
-        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
-        category: "Hackathon",
-        date: "Jan 2025",
-        image: ""
-    },
-    {
-      id: 6,
-        title: "Quantum Computing Workshop",
-        description: "I had the privilege to present a research paper on Ethical AI at the National Conference. I discussed bias mitigation in datasets and ensuring fairness in ML models. The Q&A session was incredibly enlightening.",
-        category: "Workshop",
-        date: "Jan 2025",
-        image:""
-    },
+  {
+    id: 1,
+    title: "Sakthi Hackathon 1.0",
+    description: "Achieved a Top 5 rank among 1000+ teams and secured a ₹5000 cash prize for our project 'Smart Forge'. We developed an AI and IoT-based industrial automation solution aimed at improving efficiency and reducing manual intervention. This experience strengthened my skills in real-time problem solving, teamwork, and building scalable prototypes under pressure.",
+    category: "Hackathon",
+    date: "Aug 2025",
+    image: "sakthi hackathon.jpg"
+  },
+  {
+    id: 2,
+    title: "KPR HORIZON 2025",
+    description: "Participated in a 36-hour hackathon where our team built a smart logistics tracking system using IoT sensors and a React-based dashboard. We focused on real-time monitoring and improving supply chain transparency. The event pushed me to think quickly, collaborate effectively, and deliver a working prototype within a tight deadline.",
+    category: "Hackathon",
+    date: "Mar 2025",
+    image: "KPR horizon.jpeg"
+  },
+  {
+    id: 3,
+    title: "Quantum Computing Workshop",
+    description: "Attended an engaging workshop on quantum computing where I explored concepts like qubits, superposition, and quantum algorithms. The sessions provided insights into how quantum technology can revolutionize computing and problem-solving. It sparked my curiosity to explore advanced computing paradigms beyond classical systems.",
+    category: "Workshop",
+    date: "Jan 2025",
+    image: "quantum computing.png"
+  },
+  {
+    id: 4,
+    title: "SKCT Paper Presentation",
+    description: "Presented a research paper on Ethical AI at a national-level conference hosted by SKCT. The presentation focused on bias mitigation techniques and ensuring fairness in machine learning models. Engaging in discussions with experts during the Q&A session enhanced my understanding and confidence in research communication.",
+    category: "Presentation",
+    date: "Jan 2025",
+    image:"skct paper presentation.jpeg"
+  },
+  {
+    id: 5,
+    title: "Sakthi Auto Components",
+    description: "Visited Sakthi Auto Components and gained practical exposure to industrial manufacturing processes and automation systems. Observed how technology is integrated into large-scale production environments to improve efficiency and precision. This experience helped bridge the gap between theoretical knowledge and real-world industry applications.",
+    category: "Presentation",
+    date: "Jan 2025",
+    image:"sakthi quto components.jpeg"
+  },
+  {
+    id: 7,
+    title: "PSG Infinitum",
+    description: "Participated in PSG Infinitum, a competitive hackathon where we worked on innovative solutions within a limited timeframe. Collaborated with teammates to ideate, design, and develop a functional prototype under pressure. The event enhanced my ability to think creatively and adapt quickly to challenging problem statements.",
+    category: "Hackathon",
+    date: "Feb 2026",
+    image: "psg.jpeg"
+  },
+  {
+    id: 6,
+    title: "NVIDIA AI PC DAY",
+    description: "Attended NVIDIA AI PC Day where I explored advancements in AI-powered computing and GPU acceleration. Learned how modern AI workloads are optimized using high-performance hardware and parallel processing. The event provided valuable insights into the future of AI development and computing technologies.",
+    category: "Workshop",
+    date: "Jan 2025",
+    image:"NVIDEA PS DAY.jpg"
+  },
 ];
 
 export const NAV_ITEMS = [
